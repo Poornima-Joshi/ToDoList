@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fulid{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(21, 21, 46);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5rem;
+    color: #fff;
+    border-bottom: 2px solid yellow;
+    text-shadow: 2px 2px 2px black;
+}
+.parent{
+    margin-top:2rem;
+    width: 400px;
+    /* border: 1px solid white;
+    padding: 10px; */
+}
+input{
+    width:100%;
+    padding:0.4rem;
+    border-radius:5px;
+}
+input:focus-visible {
+    outline: none;
+    border: 2px solid rgb(126, 126, 226);
+}
+.addTaskButton{
+   font-size: 24px;
+   color: gray;
+   font-weight: bold;
+   position: absolute;
+   right: 13px;
+   background-color: white;
+   padding:0;
+   border:0;
+   top: 2px;
+   cursor: pointer;
+
+}
+.addTaskButton:hover{
+    color: blue;
+}
+.inputbox{
+    position: relative;
+    /* display: flex; */
+}
+ul{
+   list-style: none;
+   /* margin-top:1.5rem; */
+   margin-left: 5px;
+}
+ul li{
+    background-color: white;
+    padding:0.3rem;
+    border-radius:5px;
+    color: black;
+    margin-bottom:1rem;
+}
+ul li:first-child{
+    margin-top: 0.5rem;
+}
+p{
+    margin-top:1rem;
+    padding-bottom: 3px;
+    color: white;
+    font-family: arial;
+    margin-left: 5px;
+}
+.rel{
+    position: relative;
+}
+.deleteButton{
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    color: red;
+    cursor: pointer;
+    
+}
+.finiButton{
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    color:green;
+    margin-right:2px;
+    cursor: pointer;
+}
+.butt-group{
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+}
+.none{
+    display: none;
+}
+.color{
+    background-color: rgb(220, 227, 220);
+}
+/* .color:disabled{
+    background-color: ;
+} */
